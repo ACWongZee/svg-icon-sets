@@ -23,3 +23,47 @@ h2 {
   margin: .5em;
   padding-top: .1em;
 }
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+p {
+  text-align: left;
+  margin: .5rem;
+  padding-bottom: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  font-size: 1.125rem;
+  margin: 0 1.5em;
+}
+
+a:hover,
+a:focus {
+  color: #ff9500;
+}
+
+.banner {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.banner .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon svg {
+  width: 9rem;
+  fill: #fff;
+}
